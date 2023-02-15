@@ -1,0 +1,32 @@
+#!/bin/bash
+
+user='Maxim'
+echo 'USER' $user
+
+date
+
+echo 'Hello' $user
+
+directori=pwd
+echo 'я работаю из директории: ' $directori
+
+echo 'колличество процессов: '
+ps -ef | tail -n+2 | wc -l
+
+echo 'колличество процессов bioset: '
+ps -ef | grep bioset | wc -l
+
+echo 'права на файл из задания: '
+ls -la /etc/passwd | awk '{print $1}'
+
+
+
+
+
+
+
+
+
+
+
+
