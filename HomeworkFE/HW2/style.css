@@ -1,0 +1,24 @@
+body{
+    width: 400px;
+    /* height: 200px; */
+    background-image: url('https://pyxis.nymag.com/v1/imgs/e59/0f4/49f96e5b1e8f544db9307fd9d8c0873a37-30-superman.h473.w710.jpg');
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+table{
+    border: 1px solid black;
+    /* border-collapse: separate; */
+}
+
+td{
+    border: 1px solid green;
+}
+th{
+    border: 1px solid green;
+}
+
+table img{
+    width: 30px;
+    height: 20px;
+}
